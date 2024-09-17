@@ -232,14 +232,12 @@ section{
     border-radius: 2rem;
 }
 
-.btn-color-1, 
-.btn-color-2{
+.btn-color-1{
     border: black 0.1rem solid;
     background: rgb(210, 209, 209);
 }
 
-.btn-color-1:hover, 
-.btn-color-2:hover{
+.btn-color-1:hover{
     cursor: pointer;
     color: white;
     background: black;
