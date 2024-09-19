@@ -35,7 +35,7 @@ a, .btn{
     min-height: 100%;
     z-index: -1; /* Make sure it stays behind the content */
     object-fit: cover; /* Ensures the video covers the entire background */
-    opacity: 0.6; /* You can adjust this for transparency effect */
+    opacity: 0.65; /* You can adjust this for transparency effect */
     pointer-events: none; /* Ensure video doesn't block clicks */
 }
 
@@ -70,14 +70,14 @@ a {
 }
 
 a:hover{
-    color: gray;
+    color: white;
     text-decoration: underline;
     text-underline-offset: 0.5rem ;
-    text-decoration-color: gray;
+    text-decoration-color: white;
 }
 
 .logo{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .logo:hover{
@@ -192,6 +192,8 @@ section{
     height: 400px;
     width: 400px;
     margin: auto 0;
+    border-radius: 20rem;
+    border: black 0.2rem solid;
 }
 
 .section__text{
@@ -201,13 +203,14 @@ section{
 
 .section__text p{
     font-weight: 600;
-    color: rgb(89, 89, 89);
+    color: black;
 }
 
 .section__text__p1{
     font-size: 1.5rem;
     text-align: center;
-    color: rgb(89, 89, 89);
+    color: black;
+    font-weight: 500;
 }
 
 .section__text__p2{
@@ -301,7 +304,7 @@ section{
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
+    border-color: black;
     text-align: center;
 }
 
@@ -315,21 +318,32 @@ section{
 .section__about-pic-container {
     height: 350px;
     width: 350px;
-
+    margin-top: 2rem;
+    border: black 0.1rem solid;
+    border-radius: 2.075rem;
+    border-color: black;
 }
 
 .section__about-pic-container img{
     height: 350px;
     width: 350px;
-    object-fit: cover;
 }
 
 .details-container p{
-    color: rgb(89, 89, 89);
+    color: black;
+}
+
+.text-container{
+    padding: 1rem;
+
+    background: white;
+    border-radius: 2rem;
+    border: black 0.1rem solid;
+    border-color: black;
 }
 
 .text-container p{
-    color: rgb(89, 89, 89);
+    color: black;
 }
 
 
@@ -424,6 +438,7 @@ article .icon{
 .contact-info-container p{
     color: black;
     font-size: larger;
+    font-weight: 500;
 }
 
 .contact-icon{
@@ -443,5 +458,5 @@ footer{
 
 footer p{
     text-align: center;
-    color: rgb(163, 163, 163);
+    color: black;
 }
